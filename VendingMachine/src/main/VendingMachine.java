@@ -6,7 +6,6 @@ public class VendingMachine {
 
 	// offers 5 product
 	// accepts coins, 1, 5 dollar bills
-	//
 	private double credit;
 	private int[] change;
 	private double[] product;
