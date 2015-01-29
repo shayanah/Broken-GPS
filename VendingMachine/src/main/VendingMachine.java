@@ -79,6 +79,7 @@ public class VendingMachine {
 			if (num >= 1 && num <= 5) {
 				if (credit >= product[num - 1]) {
 					credit -= product[num - 1];
+					credit = (double) Math.round(credit * 100) / 100;
 					System.out.println("Your total credit is: "
 							+ credit);
 				} else
@@ -95,9 +96,9 @@ public class VendingMachine {
 	}
 
 	public void print() {
-		for (int i = 0; i < 4; i++) {
-			System.out.print(change[i] + " ");
-		}
+		
+		System.out.print(change[0] + " 25c" + ", "); System.out.print(change[1] + " 10c" + ", "); 
+		System.out.print(change[2] + " 5c" + ", "); System.out.print(change[3] + " 1c" + ", ");
 		System.out.println();
 
 	}
