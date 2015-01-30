@@ -13,7 +13,7 @@
 		TotalDistance()
 			return Math.sqrt( (startPoint.Y - endPoint.Y) * (startPoint.Y - endPoint.Y)
 				+ (startPoint.X - endPoint.X) * (startPoint.X - endPoint.X) ) ;		
- * */
+ */
 package GPS;
 
 import java.util.Random;
