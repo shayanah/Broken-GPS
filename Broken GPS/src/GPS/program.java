@@ -1,3 +1,19 @@
+/*
+ * Algorithm:
+ * for(i = 0 ; i < mileage ; i++)
+		{
+			foreach five minutes
+			{
+				turnTo = getARandomeDirection();
+				location = add(location, turnTo);
+			}
+			else
+				location = continueToTheDirection();
+		}
+		TotalDistance()
+			return Math.sqrt( (startPoint.Y - endPoint.Y) * (startPoint.Y - endPoint.Y)
+				+ (startPoint.X - endPoint.X) * (startPoint.X - endPoint.X) ) ;		
+ * */
 package GPS;
 
 import java.util.Random;
