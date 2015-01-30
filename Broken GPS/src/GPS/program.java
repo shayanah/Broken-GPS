@@ -30,8 +30,9 @@ public class program {
 		g.GoRandomly(60, 1);
 		double d = g.distanceC(new Coordinate(), g.location);
 		
+		System.out.print("Car's final position: ");
 		Coordinate.print(g.location);
-		System.out.println("the final distance car has drived is: " + d);
+		System.out.println("the total distance car has drived is: " + d);
 		
 	}
 }
